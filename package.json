@@ -1,0 +1,15 @@
+{
+  "name": "weather-webpack",
+  "version": "1.0.0",
+  "description": "simple weather card",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "D Marcus",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  }
+}
