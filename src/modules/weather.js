@@ -101,27 +101,27 @@ function display(weatherDisplay) {
     //display icon based on description
     if (displaySkies.innerText.includes("Clear")) {
         weatherCard.style.backgroundColor = "DarkTurquoise";
-        img.src = "https://www.flaticon.com/svg/static/icons/svg/2892/2892972.svg"
+        img.src = "https://i.imgur.com/6w2hwmq.png"
         document.body.style.backgroundColor = "LavenderBlush";
     } else if (displaySkies.innerText.includes("Snow")) {
         weatherCard.style.backgroundColor = "LightSlateGrey";
-        img.src = "https://www.flaticon.com/svg/static/icons/svg/642/642000.svg"
+        img.src = "https://i.imgur.com/3HZ6ZFd.png"
         document.body.style.backgroundColor = "Gainsboro";
     } else if (displaySkies.innerText.includes("Rain")) {
         weatherCard.style.backgroundColor = "LightSlateGrey";
-        img.src = "https://www.flaticon.com/svg/static/icons/svg/414/414974.svg"
+        img.src = "https://i.imgur.com/DpTg9uC.png"
         document.body.style.backgroundColor = "Gainsboro";
     } else if (displaySkies.innerText.includes("Cloud")) {
         weatherCard.style.backgroundColor = "LightSlateGrey";
-        img.src = "https://www.flaticon.com/svg/static/icons/svg/2151/2151266.svg"
+        img.src = "https://i.imgur.com/CrC5fmA.png"
         document.body.style.backgroundColor = "Gainsboro";
     } else if (displaySkies.innerText.includes("Storm")) {
         weatherCard.style.backgroundColor = "LightSlateGrey";
-        img.src = "https://www.flaticon.com/svg/static/icons/svg/3815/3815424.svg"
+        img.src = "https://i.imgur.com/DpTg9uC.png"
         document.body.style.backgroundColor = "Gainsboro";
     } else {
         weatherCard.style.backgroundColor = "LightSlateGrey";
-        img.src = "https://www.flaticon.com/svg/static/icons/svg/2151/2151266.svg"
+        img.src = "https://i.imgur.com/CrC5fmA.png"
         document.body.style.backgroundColor = "Gainsboro";
     }
 }
